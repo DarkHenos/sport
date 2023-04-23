@@ -1,0 +1,197 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.btn {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #777;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.menu-icon:hover {
+  background-color: #555;
+  color: #aaa;
+}
+
+.counter {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.timer {
+  font-size: 64px;
+  margin-bottom: 20px;
+  color: #ff8000;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Styles pour les icônes de Font Awesome */
+.fa-plus,
+.fa-minus,
+.fa-play,
+.fa-pause,
+.fa-undo {
+  color: #fff;
+}
+
+.fa-plus:hover,
+.fa-minus:hover,
+.fa-play:hover,
+.fa-pause:hover,
+.fa-undo:hover {
+  color: #e6e6e6;
+}
+
+/* Utilisation de la police système pour une meilleure lisibilité sur téléphone */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    sans-serif;
+}
+
+/* Styles pour la modal de réglages */
+/* Styles pour la modal de réglages */
+.modal {
+    display: none; /* Modifier cette ligne pour passer de "none" à "block" */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #333;
+    margin: auto;
+    padding: 20px;
+    max-width: 400px;
+    min-width: 300px; /* Ajouter cette ligne pour définir une taille minimale */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Nouveau style pour le bouton de la roue crantée */
+.menu-icon {
+  font-size: 24px;
+  padding: 10px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #777;
+  color: #ccc;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); /* Ombre pour donner de la profondeur */
+}
+
+.close-btn {
+  position: absolute; /* Ajouter cette ligne pour positionner la croix en position absolue */
+  top: 10px; /* Ajouter ces lignes pour aligner la croix en haut à droite */
+  right: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+}
+
+.close-btn:hover {
+  color: #e6e6e6;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#timerDuration {
+  width: 15%; /* Utiliser la largeur maximale disponible pour l'élément d'entrée */
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #555;
+  border: none;
+  color: #fff;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.toggle-container label {
+  margin-right: 10px;
+}
+
+.toggle {
+  appearance: none;
+  width: 40px;
+  height: 20px;
+  background-color: #777;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle:before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 1px;
+  left: 1px;
+  transition: transform 0.2s ease;
+}
+
+.toggle:checked:before {
+  transform: translateX(20px);
+}
+
+/* Nouveau style pour le bouton de la roue crantée */
+.settings-btn {
+  font-size: 24px;
+  padding: 10px;
+  margin: 0 10px;
+  background-color: #777;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.settings-btn:hover {
+  background-color: #555;
+}

@@ -20,10 +20,6 @@
   background-color: #555;
 }
 
-.menu-icon:hover {
-  background-color: #555;
-  color: #aaa;
-}
 
 .counter {
   font-size: 48px;
@@ -105,9 +101,14 @@ body {
   color: #ccc;
   border: none;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 7px;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); /* Ombre pour donner de la profondeur */
 }
+.menu-icon:hover {
+    background-color: #555;
+    color: #aaa;
+  }
+ 
 
 .close-btn {
   position: absolute; /* Ajouter cette ligne pour positionner la croix en position absolue */

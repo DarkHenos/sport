@@ -1,0 +1,22 @@
+{
+  "citations": [
+    {
+      "number" :"1", 
+      "auteur": "Michael Jordan",
+      "citation": "Je peux accepter l'échec, tout le monde échoue dans quelque chose. Mais je ne peux pas accepter de ne pas essayer.",
+      "height": "150px"
+    },
+    {
+      "number" :"2", 
+      "auteur": "Muhammad Ali",
+      "citation": "Je ne compte pas les sit-ups que je fais, je ne commence à compter que quand ça commence à faire mal, quand je sens la douleur, c'est là que tout commence.",
+      "height": "120px"
+    },
+    {
+      "number" :"3", 
+      "auteur": "Arnold Schwarzenegger",
+      "citation": "L'échec n'est qu'une opportunité pour commencer de nouveau, cette fois plus intelligemment.",
+      "height": "130px"
+    }
+  ]
+}

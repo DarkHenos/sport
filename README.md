@@ -36,3 +36,8 @@ Use the buttons in each section to add, edit, or delete items.
 
 - [@DarkHenos](https://github.com/DarkHenos)
 
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+

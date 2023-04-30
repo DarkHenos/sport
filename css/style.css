@@ -1,16 +1,17 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
 /* Style général du body et de la page */
 body {
   font-family: Arial, sans-serif;
-  background-size: cover;
   background-image: url(../ressource/background-gym.jpg);
-  height: 100vh;
+  background-position: center top;
+  background-size: cover;
   width: auto;
+  height: 100vh;
   position: relative;
-  background-position: center top; /* Position de l'image de fond */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
   touch-action: manipulation;
+  overflow: auto;
 }
 
 /* Pseudo-classe ::before pour l'effet d'assombrissement */
@@ -50,11 +51,15 @@ h1 {
 }
 
 .timer {
-  font-size: 48px; /* Taille de police du timer */
-  font-weight: bold; /* Épaisseur de la police du timer */
+  font-size: 48px;
+  /* Taille de police du timer */
+  font-weight: bold;
+  /* Épaisseur de la police du timer */
 }
 
 .counter {
-  font-size: 36px; /* Taille de police du counter */
-  font-weight: bold; /* Épaisseur de la police du counter */
+  font-size: 36px;
+  /* Taille de police du counter */
+  font-weight: bold;
+  /* Épaisseur de la police du counter */
 }

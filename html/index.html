@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newgenfit - Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.13.0/Sortable.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.13.0/Sortable.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/c3ca8493d5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-dashboard.css">
+</head>
+
+<body class="dark-theme">
+    <div class="top-name" style="color: white;">
+        <h1>Newgenfit - Dashboard</h1>
+    </div>
+    <div class="navbar">
+        <ul>
+            <img class="logo"><a href="#"><img src="https://via.placeholder.com/60x60" alt="Logo"></a>
+            <li><a href="../html/index-timer.html"><i class="fa-solid fa-stopwatch"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-chart-simple"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-gear"></i></a></li>
+        </ul>
+    </div>
+    <div class="card-container sortable">
+        <div class="card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-64x64">
+                            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <p class="title is-4">Repas</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="columns is-vcentered">
+                        <div class="column is-6">
+                            <h4 class="is-size-5 has-text-weight-bold mb-3">Riz au poulet</h4>
+                            <ul>
+                                <li>Riz blanc</li>
+                                <li>Sauce au poivre</li>
+                                <li>Poulet fermier Label Rouge</li>
+                            </ul>
+                        </div>
+                        <div class="column is-6">
+                            <h4 class="is-size-5 has-text-weight-bold mb-3">Dessert</h4>
+                            <ul>
+                                <li>Yaourt blanc</li>
+                                <li>Banane</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="button is-link is-small">Voir plus</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <p class="card-header-title">Entraînement</p>
+                <button class="card-header-icon" aria-label="more options">
+                    <span class="icon">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="card-content">
+                <div class="content">
+                    <h4>Nom de l'exercice</h4>
+                    <figure class="image is-4by3">
+                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                    <p>Bref description</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-motivation card" id="motivation-card">
+            <div class="card-content" id="motivation-card">
+                <div class="content">
+                    <span class="icon is-large is-pulled-right btn-setting-motivation" id="motivation-icon">
+                        <i class="fas fa-angle-down"></i>
+                    </span>
+                    <p class="title" id="motivation-quote"></p>
+                    <p class="subtitle" id="motivation-author"></p>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="card is-small custom-card">
+            <div class="card-header">
+                <p class="card-header-title">Challenge</p>
+                <button class="card-header-icon" aria-label="more options">
+                    <span class="icon">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="card-content">
+                <div class="content">
+                    <h4>Faire 15 squats</h4>
+                    <p>Description du challenge</p>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="card add-section"">
+            <div class=" card-header">
+            <p class="card-header-title">Ajouter une section</p>
+            <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                    <i class="fas fa-plus"></i>
+                </span>
+            </button>
+    </div>
+    </a>
+
+    <script src="../JS/main.js"></script>
+    <script src="../JS/quotes.js"></script>
+    <script src="..//JS/modal.js"></script>
+    <script src="../JS/sortable-cards.js"></script>
+</body>
+
+</html>
